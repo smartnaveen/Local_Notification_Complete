@@ -13,6 +13,8 @@
 		E783D71A262971440028C3E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E783D718262971440028C3E0 /* Main.storyboard */; };
 		E783D71C2629714A0028C3E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E783D71B2629714A0028C3E0 /* Assets.xcassets */; };
 		E783D71F2629714A0028C3E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E783D71D2629714A0028C3E0 /* LaunchScreen.storyboard */; };
+		E7E13E6B262FE02E00201978 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E13E6A262FE02E00201978 /* SecondViewController.swift */; };
+		E7E13E6E262FE19500201978 /* oppsInternet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E7E13E6D262FE19500201978 /* oppsInternet.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		E783D71B2629714A0028C3E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E783D71E2629714A0028C3E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E783D7202629714A0028C3E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7E13E6A262FE02E00201978 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		E7E13E6D262FE19500201978 /* oppsInternet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = oppsInternet.jpg; path = ../../../oppsInternet.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +60,41 @@
 		E783D711262971440028C3E0 /* Local_Notification_Complete */ = {
 			isa = PBXGroup;
 			children = (
-				E783D712262971440028C3E0 /* AppDelegate.swift */,
-				E783D714262971440028C3E0 /* SceneDelegate.swift */,
-				E783D716262971440028C3E0 /* ViewController.swift */,
-				E783D718262971440028C3E0 /* Main.storyboard */,
+				E783D728262971620028C3E0 /* Delegates */,
+				E783D729262971720028C3E0 /* Views */,
+				E783D72A262971780028C3E0 /* Controllers */,
 				E783D71B2629714A0028C3E0 /* Assets.xcassets */,
-				E783D71D2629714A0028C3E0 /* LaunchScreen.storyboard */,
 				E783D7202629714A0028C3E0 /* Info.plist */,
 			);
 			path = Local_Notification_Complete;
+			sourceTree = "<group>";
+		};
+		E783D728262971620028C3E0 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				E783D712262971440028C3E0 /* AppDelegate.swift */,
+				E783D714262971440028C3E0 /* SceneDelegate.swift */,
+				E7E13E6D262FE19500201978 /* oppsInternet.jpg */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		E783D729262971720028C3E0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E783D718262971440028C3E0 /* Main.storyboard */,
+				E783D71D2629714A0028C3E0 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E783D72A262971780028C3E0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E783D716262971440028C3E0 /* ViewController.swift */,
+				E7E13E6A262FE02E00201978 /* SecondViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +156,7 @@
 			files = (
 				E783D71F2629714A0028C3E0 /* LaunchScreen.storyboard in Resources */,
 				E783D71C2629714A0028C3E0 /* Assets.xcassets in Resources */,
+				E7E13E6E262FE19500201978 /* oppsInternet.jpg in Resources */,
 				E783D71A262971440028C3E0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7E13E6B262FE02E00201978 /* SecondViewController.swift in Sources */,
 				E783D717262971440028C3E0 /* ViewController.swift in Sources */,
 				E783D713262971440028C3E0 /* AppDelegate.swift in Sources */,
 				E783D715262971440028C3E0 /* SceneDelegate.swift in Sources */,
